@@ -1,0 +1,91 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch IsLeapYear",
+            "request": "launch",
+            "mainClass": "IsLeapYear",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaPAplusplus",
+            "request": "launch",
+            "mainClass": "JavaPAplusplus",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_graph",
+            "request": "launch",
+            "mainClass": "input_graph",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_bufferreader",
+            "request": "launch",
+            "mainClass": "input_bufferreader",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_io",
+            "request": "launch",
+            "mainClass": "input_io",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_scanner",
+            "request": "launch",
+            "mainClass": "input_scanner",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello_world",
+            "request": "launch",
+            "mainClass": "hello_world",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch input_and_output_1",
+            "request": "launch",
+            "mainClass": "input_and_output_1",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java_381ae82d"
+        }
+    ]
+}
