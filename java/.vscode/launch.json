@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LocalClass",
+            "request": "launch",
+            "mainClass": "LocalClass",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
             "name": "Launch IsLeapYear",
             "request": "launch",
             "mainClass": "IsLeapYear",
