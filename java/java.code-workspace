@@ -6,8 +6,8 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"java/java programing/src",
-			"java programing"
+			"java programing",
+			""
 		]
 	}
 }

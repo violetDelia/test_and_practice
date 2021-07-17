@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ListAllFiles",
+            "request": "launch",
+            "mainClass": "ListAllFiles",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch StreamDump",
+            "request": "launch",
+            "mainClass": "StreamDump",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimerTest",
+            "request": "launch",
+            "mainClass": "TimerTest",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "ThreadPoolDemo",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadDraw",
+            "request": "launch",
+            "mainClass": "ThreadDraw",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MulThread",
+            "request": "launch",
+            "mainClass": "MulThread",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
             "name": "Launch LocalClass",
             "request": "launch",
             "mainClass": "LocalClass",
