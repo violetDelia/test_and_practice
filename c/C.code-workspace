@@ -62,7 +62,10 @@
 			"string": "cpp",
 			"unordered_set": "cpp",
 			"random": "cpp",
-			"bitset": "cpp"
+			"bitset": "cpp",
+			"array": "cpp",
+			"functional": "cpp",
+			"numeric": "cpp"
 		}
 	}
 }

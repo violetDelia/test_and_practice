@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\c",
-    "\\c\\Leecode"
+    "\\c\\Leecode",
+    "\\c\\opencv"
   ],
-  "SelectedNode": "\\c\\Leecode\\110. 平衡二叉树.cpp",
+  "SelectedNode": "\\c\\Leecode\\100. 相同的树.cpp",
   "PreviewInSolutionExplorer": false
 }

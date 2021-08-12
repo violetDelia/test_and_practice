@@ -8,7 +8,12 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "F:/opencv/build/x64/mingw/bin/libopencv_world453.dll",
+                "-I",
+                "F:/opencv/build/x64/mingw/install/include",
+                "-I",
+                "F:/opencv/build/x64/mingw/install/include/opencv2"
             ],
             "options": {
                 "cwd": "F:\\mingw64\\bin"
