@@ -55,7 +55,7 @@ bool simpleConvelution_check(vector<vector<int>> &kernel)
  * @param output_image 输出
  * @param kernel 算子
  */
-void EdgeDetection_Sobel(Mat &input_image, Mat &output_image, vector<vector<int>> &kernel)
+void edgeDetection_Sobel(Mat &input_image, Mat &output_image, vector<vector<int>> &kernel)
 {
     //检查
     if (!simpleConvelution_check(kernel))
@@ -136,7 +136,6 @@ void EdgeDetection_Sobel_orientation(Mat &input_image, Mat &output_image, vector
                     Gx += input_image.at<uchar>(head.first + i, head.second + j) * kernel[i][j];
                 }
             }
-            Gx /= weight;
             //y的梯度
             double Gy = 0;
             for (int i = 0; i < kernel.size(); ++i)
@@ -146,9 +145,8 @@ void EdgeDetection_Sobel_orientation(Mat &input_image, Mat &output_image, vector
                     Gy += input_image.at<uchar>(head.first + i, head.second + j) * kernel[j][i];
                 }
             }
-            Gy /= weight;
-            output_image.at<uchar>(r, c) =atan(Gy/Gx);
-                head.second++;
+            output_image.at<uchar>(r, c) = (atan2(Gy, Gx) + acos(-1)) * UCHAR_MAX / 2 / acos(-1);
+            head.second++;
         }
         head.first++;
         head.second = 0;

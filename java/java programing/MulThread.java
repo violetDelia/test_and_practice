@@ -33,14 +33,14 @@ class Couter implements Runnable {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
+        
         int i = 0;
         while (i++ <= 10) {
             System.out.println("ID: " + id + " No. " + i);
             try {
                 Thread.sleep(30);
             } catch (InterruptedException e) {
-                // TODO: handle exception
+               
 
             }
         }
@@ -52,14 +52,14 @@ class TimeDisplay implements Runnable {
     @Override
     public void run() {
         int i = 0;
-        // TODO Auto-generated method stub
+        
         while (i++ <= 30) {
             new SimpleDateFormat().format(new Date());
         }
         try {
             Thread.sleep(40);
         } catch (InterruptedException e) {
-            // TODO: handle exception
+            
         }
     }
 }

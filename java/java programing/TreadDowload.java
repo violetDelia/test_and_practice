@@ -12,7 +12,7 @@ public class TreadDowload {
                     System.out.println(urls[idx]);
                     download(urls[idx], files[idx]);
                 } catch (Exception e) {
-                    // TODO: handle exception
+                    
                     e.printStackTrace();
                 }
             }).start();

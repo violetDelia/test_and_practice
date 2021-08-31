@@ -4,11 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "F:/opencv/build/x64/mingw/install/include",
-                "F:/opencv/build/x64/mingw/install/include/opencv2",
-                "F:/eigen-3.3.9/Eigen",
-                "J:\\test\\c\\My_Lib",
-                "J:\\test\\c\\My_Lib\\my_STL"
+                "C:/Users/17335/Desktop/test/c"
             ],
             "defines": [
                 "_DEBUG",
@@ -16,7 +12,9 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.18362.0",
-            "compilerPath": "F:/Visual studio/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "F:\\Visual studio\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"
         }
     ],

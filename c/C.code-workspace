@@ -65,7 +65,23 @@
 			"bitset": "cpp",
 			"array": "cpp",
 			"functional": "cpp",
-			"numeric": "cpp"
+			"numeric": "cpp",
+			"complex": "cpp",
+			"eigen": "cpp",
+			"dense": "cpp",
+			"core": "cpp",
+			"chrono": "cpp",
+			"mutex": "cpp",
+			"ratio": "cpp",
+			"sstream": "cpp",
+			"thread": "cpp",
+			"typeindex": "cpp",
+			"cholesky": "cpp",
+			"sparse": "cpp",
+			"sparsecore": "cpp",
+			"qr": "cpp",
+			"svd": "cpp",
+			"cuchar": "cpp"
 		}
 	}
 }

@@ -49,7 +49,7 @@ class MovingShape extends Thread {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
+        
         super.run();
        
         while (true) {
@@ -61,7 +61,7 @@ class MovingShape extends Thread {
             try {
                 Thread.sleep(130);
             } catch (InterruptedException e) {
-                // TODO: handle exception
+            
             }
         }
     }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GameWindow",
+            "request": "launch",
+            "mainClass": "game.PlaneWar.GameWindow",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
+            "name": "Launch GameWindow",
+            "request": "launch",
+            "mainClass": "game.PlaneBattle.GameWindow",
+            "projectName": "java_381ae82d"
+        },
+        {
+            "type": "java",
             "name": "Launch ListAllFiles",
             "request": "launch",
             "mainClass": "ListAllFiles",
