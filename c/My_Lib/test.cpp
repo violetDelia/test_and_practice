@@ -1,35 +1,27 @@
 #include <array>
+#include <cassert>
+#include <cerrno>
+#include <cfenv>
+#include <cfloat>
+#include <cmath>
 #include <cstddef>
+#include <cstdint>
+#include <cstdlib>
+#include <cstring>
 #include <exception>
+#include <iomanip>
 #include <iostream>
+#include <limits>
+#include <map>
+#include <memory>
+#include <memory_resource>
 #include <my_head.hpp>
-#include <new>
-#include <type_traits>
+#include <sstream>
+#include <utility>
 #include <vector>
-
-void test_nullptr_t(){};
-void f(int *)
-{
-    std::cout << "Pointer to integer overload\n";
-}
-
-void f(double *)
-{
-    std::cout << "Pointer to double overload\n";
-}
-
-void f(my_std::nullptr_t)
-{
-    std::cout << "null pointer overload\n";
-}
 
 int main()
 {
-    int *pi{};
-    double *pd{};
 
-    f(pi);
-    f(pd);
-    f(nullptr);
-    std::system("pause");
+   std::system("pause");
 }
