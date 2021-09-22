@@ -6,6 +6,209 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TaxCalculateTest",
+            "request": "launch",
+            "mainClass": "software.TaxCalculateTest",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Adapter",
+            "request": "launch",
+            "mainClass": "software.Adapter",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseAccount",
+            "request": "launch",
+            "mainClass": "software.Assignment5.UseAccount",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch LibrarySystem",
+            "request": "launch",
+            "mainClass": "software.LibrarySystem",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputIo",
+            "request": "launch",
+            "mainClass": "InputIo",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment7",
+            "request": "launch",
+            "mainClass": "software.Assignment7",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment6",
+            "request": "launch",
+            "mainClass": "software.Assignment6",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmployeePlus",
+            "request": "launch",
+            "mainClass": "software.EmployeePlus",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseAccount",
+            "request": "launch",
+            "mainClass": "software.UseAccount",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment2",
+            "request": "launch",
+            "mainClass": "software.Assignment2",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment1",
+            "request": "launch",
+            "mainClass": "software.Assignment1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test4",
+            "request": "launch",
+            "mainClass": "software.test4",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test3",
+            "request": "launch",
+            "mainClass": "software.test3",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputBufferReader",
+            "request": "launch",
+            "mainClass": "InputBufferReader",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputBufferreader",
+            "request": "launch",
+            "mainClass": "InputBufferreader",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "software.test1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "javaclass.test1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "javaClass.test1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "javaclass.test2",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "javacode.test1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "javacode.test2",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "java.test1",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test.test",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "java.test2",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch MulThread",
+            "request": "launch",
+            "mainClass": "MulThread",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime100Continue",
+            "request": "launch",
+            "mainClass": "Prime100Continue",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadDraw",
+            "request": "launch",
+            "mainClass": "ThreadDraw",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "ThreadPoolDemo",
+            "projectName": "java_85a5d360"
+        },
+        {
+            "type": "java",
             "name": "Launch GameWindow",
             "request": "launch",
             "mainClass": "game.PlaneWar.GameWindow",

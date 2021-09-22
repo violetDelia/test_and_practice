@@ -1,17 +1,18 @@
-#include <iostream>
-#include <stack>
-#include <vector>
 #include <algorithm>
-#include <queue>
-#include <stack>
-#include <set>
+#include <iostream>
 #include <map>
+#include <queue>
+#include <set>
+#include <stack>
 #include <unordered_map>
 #include <unordered_set>
+#include <vector>
 using namespace std;
-class Solution {
+class Solution
+{
 public:
-    int min (int x, int y){
+    int min(int x, int y)
+    {
         return x < y ? x : y;
     }
     /*int max (int x, int y){
@@ -27,15 +28,17 @@ public:
             left++;
         return;
     }*/
-    int maxArea(vector<int>& height) {
+    int maxArea(vector<int> &height)
+    {
         int left = 0;
-        int right = height.size()-1;
+        int right = height.size() - 1;
         int res = 0;
-        while(right > left){
-            int c = (right-left) * min(height[left],height[right]);
-            if(c > res)
+        while (right > left)
+        {
+            int c = (right - left) * min(height[left], height[right]);
+            if (c > res)
                 res = c;
-            if(height[left] > height [right])
+            if (height[left] > height[right])
                 right--;
             else
                 left++;

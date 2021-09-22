@@ -81,7 +81,17 @@
 			"sparsecore": "cpp",
 			"qr": "cpp",
 			"svd": "cpp",
-			"cuchar": "cpp"
+			"cuchar": "cpp",
+			"memory_resource": "cpp",
+			"climits": "cpp",
+			"cfloat": "cpp",
+			"yvals.h": "c",
+			"cfenv": "cpp",
+			"vcruntime_new.h": "c",
+			"vcruntime.h": "c"
 		}
+	},
+	"extensions": {
+		"recommendations": []
 	}
 }

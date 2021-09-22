@@ -1,3 +1,4 @@
+#pragma once
 #ifndef VECTOR_HPP
 #define VECTOR_HPP
 #include "my_STL/momery.hpp"

@@ -73,23 +73,23 @@ public:
         if (nums.size() < 3)
             return res;
         sort(nums.begin(), nums.end());
-        for (int i = 3; i < nums.size();)
+        /*for (int i = 3; i < nums.size();)
         {
             if (nums[i] == nums[i - 3])
                 nums.erase(nums.begin() + i);
             else
                 ++i;
-        }
-        for (int i = 2; i < nums.size();)
+        }*/
+        /*for (int i = 2; i < nums.size();)
         {
             if (nums[i] != 0 && nums[i] == nums[i - 2])
                 nums.erase(nums.begin() + i);
             else
                 ++i;
-        }
+        }*/
         for (int i = 0; i < nums.size(); ++i)
         {
-            if (i != 0 && nums[i - 1] == nums[i])
+            if (i > 0 && nums[i - 1] == nums[i])
                 continue;
             int left = i + 1,
                 right = nums.size() - 1,

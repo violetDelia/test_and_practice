@@ -27,7 +27,7 @@ public:
             }
             else
             {
-                int space = (numRows-(i%numRows)-1)*2;
+                int space = (numRows - (i % numRows) - 1) * 2;
                 for (int p = 0 + i; p < s.size(); p += numRows * 2 - 2)
                 {
                     res += s[p];
@@ -45,6 +45,6 @@ int main()
     Solution a;
     a.convert("PAYPALISHIRING",
               4);
-        std::system("pause");
+    std::system("pause");
     return 0;
 }
