@@ -58,8 +58,12 @@
 #include "my_STL/cstdlib.hpp"
 #endif //CSTDLIB
 
-/*#ifdef VECTOR
+#ifdef VECTOR
 #include "my_STL/vector.hpp"
-#endif //VECTOR*/
+#endif //VECTOR
+
+#ifdef ITERATOR
+#include"my_STL/iterator.hpp"
+#endif //ITERATOR
 #endif //MY_STL_HEAD
 

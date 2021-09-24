@@ -88,7 +88,11 @@
 			"yvals.h": "c",
 			"cfenv": "cpp",
 			"vcruntime_new.h": "c",
-			"vcruntime.h": "c"
+			"vcruntime.h": "c",
+			"jacobi": "cpp",
+			"orderingmethods": "cpp",
+			"iterativelinearsolvers": "cpp",
+			"geometry": "cpp"
 		}
 	},
 	"extensions": {

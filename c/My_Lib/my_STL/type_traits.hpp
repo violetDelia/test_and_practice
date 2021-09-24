@@ -613,5 +613,9 @@ struct is_object : bool_constant<
 {
 };
 
+
+template <class T>
+Inline constexpr bool is_object_v = is_object<T>::value;
+
 MY_STL_namespace_end
 #endif //TYPE_TRAITS_HPP

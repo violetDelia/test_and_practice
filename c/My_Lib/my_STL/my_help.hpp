@@ -11,9 +11,9 @@
 MY_STL_namespace_begin
 
 /*防警告*/
-#define Inline
+#define Inline 
 /*防警告*/
-#define Constexpr
+#define Constexpr 
 #define CSTD ::
 #define GLOBAL ::
 #define STD MY_STL_namespace_name::

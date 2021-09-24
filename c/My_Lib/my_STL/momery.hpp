@@ -136,7 +136,7 @@ struct pointer_traits
     using difference_type = ptrdiff_t;
     template <class U>
     using rebind = typename _get_rebind<U, Ptr>::type;
-    using _reference_of_element_type = conditional_t<is_void_v<element_type>, char, element_type> &;
+    using _reference_of_element_type =  conditional_t<is_void_v<element_type>, char, element_type> &;
 
     /**
          * @brief 指向 r 的可解引用指针
@@ -174,12 +174,12 @@ struct pointer_traits<T *>
 };
 
 /**
-     * @brief 需要的内存位数
-     * 
-     * @tparam size_of_type 数据类型的位数
-     * @param n 需要数据个数
-     * @return my_help::size_t 需要的内存位数
-     */
+ * @brief 需要的内存位数
+ * 
+ * @tparam size_of_type 数据类型的位数
+ * @param n 需要数据个数
+ * @return my_help::size_t 需要的内存位数
+ */
 template <size_t size_of_type>
 inline constexpr size_t _get_size(const size_t n)
 {
@@ -238,28 +238,28 @@ public:
     using is_always_equal = true_type;
 
     /**
-         * @brief allocator 构造函数
-         * 
-         */
+     * @brief allocator 构造函数
+     * 
+ */
     constexpr allocator() noexcept
     {
         std::cout << "allocator created: " << this << "   size:" << sizeof(*this) << std::endl;
     }
 
     /**
-         * @brief allocator 复制构造函数
-         * 
-         */
+     * @brief allocator 复制构造函数
+     * 
+     */
     constexpr allocator(const allocator &) noexcept
     {
         std::cout << "allocator coyied: " << this << "   size:" << sizeof(*this) << std::endl;
     }
 
     /**
-         * @brief allocator 复制构造函数
-         * 
-         * @tparam U 数据类型
-         */
+     * @brief allocator 复制构造函数
+     * 
+     * @tparam U 数据类型
+     */
     template <class U>
     constexpr allocator(const allocator<U> &_other) noexcept
     {
@@ -267,19 +267,19 @@ public:
     }
 
     /**
-         * @brief allocator 析构函数
-         * 
-         */
+     * @brief allocator 析构函数
+     * 
+     */
     ~allocator()
     {
         std::cout << "allocator destoried: " << this << "   size:" << sizeof(*this) << std::endl;
     }
 
     /**
-         * @brief 默认赋值运算
-         * 
-         * @return allocator& 引用
-         */
+     * @brief 默认赋值运算
+     * 
+     * @return allocator& 引用
+     */
     allocator &operator=(const allocator &_other)
     {
         if (_other != this)

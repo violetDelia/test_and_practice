@@ -300,12 +300,22 @@ namespace STD pmr
             deallocate_object(p);
         };
 
+        /**
+         * @brief 没有实现
+         * 
+         * @tparam Ty 
+         * @tparam Args 
+         * @param p 
+         * @param args 
+         */
         template <class Ty, class... Args>
         void construct(Ty *p, Args &&...args){
-            
+
         };
 
-
+        /**
+         * @brief polymorphic_allocator 不在容器复制构造时传播。
+         */
         polymorphic_allocator select_on_container_copy_construction() const
         {
             return {};
@@ -321,5 +331,5 @@ namespace STD pmr
             return memory_rsrc;
         };
     };
-}//namespace STD pmr
+} //namespace STD pmr
 #endif //MEMORY_RESOURCE_HPP
